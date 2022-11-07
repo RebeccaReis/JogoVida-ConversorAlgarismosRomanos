@@ -1,0 +1,25 @@
+body{
+    background: #f0f0ff;
+}
+td{
+    border: #eee 1px solid;
+}
+.botoes{
+    position: fixed;
+    font-size: 200%;
+    top: 10px;
+    left: 10px;
+}
+.btn{
+    background: pink;
+    width: 30px;
+    height: 30px;
+    display: inline block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover {
+    background: black;
+    color: white;
+}

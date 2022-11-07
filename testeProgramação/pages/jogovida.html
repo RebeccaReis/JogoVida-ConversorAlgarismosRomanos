@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/jogovida.css">
+    <title>Jogo Da Vida</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id="botoes">
+        <div class="btn" id="btn1" onclick=" interReproducao()">
+            <i class="fas fa-play" title="Iniciar mudança de estados"></i>
+        </div>
+        <div class="btn" id="btn2">
+            <i class="fas fa-step-forward" onclick="outroEstado()"></i>
+        </div>
+        <div class="btn" id="btn3"  onclick="limpar()" title="Limpar">
+            <i class="fas fa-eraser"></i>
+      </div>
+    <div id="tabuleiro"></div>
+</body>
+<script src="../scripts/jogovida.js"></script>
+</html>
